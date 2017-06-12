@@ -1,9 +1,9 @@
 package Steps;
 
-import cucumber.annotation.en.And;
-import cucumber.annotation.en.Given;
-import cucumber.annotation.en.Then;
-import cucumber.runtime.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
+/**import cucumber.runtime.PendingException;*/
 
 /**
  * Created by 35926 on 6/12/2017.

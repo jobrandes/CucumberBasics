@@ -1,3 +1,4 @@
+@smokeTest
 Feature: LoginFeature
   This login feature deals with the login functionality of the application
 
