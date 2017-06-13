@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 977969,
+  "duration": 6242824706,
   "status": "passed"
 });
 formatter.scenario({
@@ -79,7 +79,7 @@ formatter.match({
   "location": "LoginSteps.iNavigateToTheLoginPage()"
 });
 formatter.result({
-  "duration": 249958465,
+  "duration": 703278288,
   "status": "passed"
 });
 formatter.match({
@@ -92,7 +92,7 @@ formatter.match({
   "location": "LoginSteps.iEnterTehUsersEmailAddressAsEmailAdmin(String)"
 });
 formatter.result({
-  "duration": 3614055,
+  "duration": 3380638,
   "status": "passed"
 });
 formatter.match({
@@ -105,7 +105,7 @@ formatter.match({
   "location": "LoginSteps.iVerifyTheCountOfMySalaryDigitsFor(int)"
 });
 formatter.result({
-  "duration": 1020632,
+  "duration": 977969,
   "status": "passed"
 });
 formatter.match({
@@ -118,261 +118,32 @@ formatter.match({
   "location": "Java8Step.java:11"
 });
 formatter.result({
-  "duration": 453705,
+  "duration": 277310,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iEnterTheFollowingDetailsForLogin(DataTable)"
 });
 formatter.result({
-  "duration": 28490322,
+  "duration": 274874524,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickLoginButton()"
 });
 formatter.result({
-  "duration": 85736,
+  "duration": 365405576,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iShouldSeeUserFormPage()"
 });
 formatter.result({
-  "duration": 135373,
+  "duration": 55029219,
   "status": "passed"
 });
 formatter.after({
-  "duration": 147270,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "line": 17,
-  "name": "Login with correct username nad password using scenario outline",
-  "description": "",
-  "id": "loginfeature;login-with-correct-username-nad-password-using-scenario-outline",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 18,
-  "name": "I navigate to the login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
-  "name": "I enter \u003cusername\u003e and \u003cpassword\u003e",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "I click the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "I should see the userform page",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 23,
-  "name": "",
-  "description": "",
-  "id": "loginfeature;login-with-correct-username-nad-password-using-scenario-outline;",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 24,
-      "id": "loginfeature;login-with-correct-username-nad-password-using-scenario-outline;;1"
-    },
-    {
-      "cells": [
-        "execute",
-        "automation"
-      ],
-      "line": 25,
-      "id": "loginfeature;login-with-correct-username-nad-password-using-scenario-outline;;2"
-    },
-    {
-      "cells": [
-        "testing",
-        "qa"
-      ],
-      "line": 26,
-      "id": "loginfeature;login-with-correct-username-nad-password-using-scenario-outline;;3"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 308077,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 25,
-  "name": "Login with correct username nad password using scenario outline",
-  "description": "",
-  "id": "loginfeature;login-with-correct-username-nad-password-using-scenario-outline;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@smokeTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 18,
-  "name": "I navigate to the login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
-  "name": "I enter execute and automation",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "I click the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "I should see the userform page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iNavigateToTheLoginPage()"
-});
-formatter.result({
-  "duration": 1358245,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "execute",
-      "offset": 8
-    },
-    {
-      "val": "automation",
-      "offset": 20
-    }
-  ],
-  "location": "LoginSteps.iEnterTheUsernameAndPassword(String,String)"
-});
-formatter.result({
-  "duration": 187881,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.iClickLoginButton()"
-});
-formatter.result({
-  "duration": 74250,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.iShouldSeeUserFormPage()"
-});
-formatter.result({
-  "duration": 166140,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 78352,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2829711,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 26,
-  "name": "Login with correct username nad password using scenario outline",
-  "description": "",
-  "id": "loginfeature;login-with-correct-username-nad-password-using-scenario-outline;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@smokeTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 18,
-  "name": "I navigate to the login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
-  "name": "I enter testing and qa",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "I click the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "I should see the userform page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iNavigateToTheLoginPage()"
-});
-formatter.result({
-  "duration": 315461,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "testing",
-      "offset": 8
-    },
-    {
-      "val": "qa",
-      "offset": 20
-    }
-  ],
-  "location": "LoginSteps.iEnterTheUsernameAndPassword(String,String)"
-});
-formatter.result({
-  "duration": 141117,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.iClickLoginButton()"
-});
-formatter.result({
-  "duration": 65636,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.iShouldSeeUserFormPage()"
-});
-formatter.result({
-  "duration": 86967,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 78352,
+  "duration": 123477,
   "status": "passed"
 });
 });

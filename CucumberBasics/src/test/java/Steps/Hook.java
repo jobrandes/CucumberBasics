@@ -4,10 +4,10 @@ import Base.BaseUtil;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  * Created by Jo-Anne Brandes on 6/13/2017
- *
  */
 public class Hook extends BaseUtil {
 
@@ -18,20 +18,18 @@ public class Hook extends BaseUtil {
     }
 
     @Before
-    public void InitializeTest()
-    {
-        System.out.println("Opening the browser : MOCK");
+    public void InitializeTest() {
+        System.out.println("Opening the browser : Firefox");
 
-        //passing a dummy webdirver instance
+        System.setProperty("webdriver.firefox.marionette", "C:\\webdrivers\\geckodriver.exe");
+        base.Driver = new FirefoxDriver();
 
-        base.StepInfo = "FirefoxDriver";
     }
 
     @After
-    public void TearDownTest(Scenario scenario)
-    {
+    public void TearDownTest(Scenario scenario) {
 
-        if (scenario.isFailed()){
+        if (scenario.isFailed()) {
 
             //take screenshot
             System.out.println(scenario.getName());
