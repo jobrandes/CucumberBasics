@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6242824706,
+  "duration": 5873709493,
   "status": "passed"
 });
 formatter.scenario({
@@ -79,7 +79,7 @@ formatter.match({
   "location": "LoginSteps.iNavigateToTheLoginPage()"
 });
 formatter.result({
-  "duration": 703278288,
+  "duration": 2463339904,
   "status": "passed"
 });
 formatter.match({
@@ -92,7 +92,7 @@ formatter.match({
   "location": "LoginSteps.iEnterTehUsersEmailAddressAsEmailAdmin(String)"
 });
 formatter.result({
-  "duration": 3380638,
+  "duration": 2323496,
   "status": "passed"
 });
 formatter.match({
@@ -105,7 +105,7 @@ formatter.match({
   "location": "LoginSteps.iVerifyTheCountOfMySalaryDigitsFor(int)"
 });
 formatter.result({
-  "duration": 977969,
+  "duration": 801164,
   "status": "passed"
 });
 formatter.match({
@@ -118,32 +118,32 @@ formatter.match({
   "location": "Java8Step.java:11"
 });
 formatter.result({
-  "duration": 277310,
+  "duration": 470114,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iEnterTheFollowingDetailsForLogin(DataTable)"
 });
 formatter.result({
-  "duration": 274874524,
+  "duration": 230649730,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickLoginButton()"
 });
 formatter.result({
-  "duration": 365405576,
+  "duration": 347133883,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iShouldSeeUserFormPage()"
 });
 formatter.result({
-  "duration": 55029219,
+  "duration": 39517497,
   "status": "passed"
 });
 formatter.after({
-  "duration": 123477,
+  "duration": 165729,
   "status": "passed"
 });
 });

@@ -1,6 +1,7 @@
 package Steps;
 
 import Base.BaseUtil;
+import Pages.LoginPage;
 import Transformation.EmailTransform;
 import Transformation.SalaryCountTransformer;
 import cucumber.api.DataTable;
@@ -39,7 +40,8 @@ public class LoginSteps extends BaseUtil {
     @And("^I click the login button$")
     public void iClickLoginButton() throws Throwable {
 
-        base.Driver.findElement(By.name("Login")).submit();
+        LoginPage page = new LoginPage(base.Driver);
+        page.ClickLogin();
     }
 
     @Then("^I should see the userform page$")
@@ -59,9 +61,10 @@ public class LoginSteps extends BaseUtil {
         //Store Users
         users = table.asList(User.class);
 
+        LoginPage page = new LoginPage(base.Driver);
+
         for (User user : users) {
-            base.Driver.findElement(By.name("UserName")).sendKeys(user.username);
-            base.Driver.findElement(By.name("Password")).sendKeys(user.password);
+            page.Login(user.username, user.password);
         }
     }
 
